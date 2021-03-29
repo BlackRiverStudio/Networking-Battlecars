@@ -1,6 +1,6 @@
 Using pre-set license
 Built from '2020.2/release' branch; Version is '2020.2.2f1 (068178b99f32) revision 426360'; Using compiler version '192528614'; Build Type 'Release'
-OS: 'Windows 10 Home; OS build 18363.1379; Version 1909; 64bit' Language: 'en' Physical Memory: 16196 MB
+OS: 'Windows 10 Home; OS build 19042.867; Version 2009; 64bit' Language: 'en' Physical Memory: 16196 MB
 BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1, IsPro: 0
 
  COMMAND LINE ARGUMENTS:
@@ -11,19 +11,19 @@ C:\Program Files\Unity\Hub\Editor\2020.2.2f1\Editor\Unity.exe
 -name
 AssetImportWorker0
 -projectPath
-C:/Users/crmdo/OneDrive/Desktop/2021 Diploma/Github/Battlecars
+C:/Users/crmdo/OneDrive/Desktop/2021 Diploma/Github/Networking-Battlecars
 -logFile
 Logs/AssetImportWorker0.log
 -srvPort
-61365
-Successfully changed project path to: C:/Users/crmdo/OneDrive/Desktop/2021 Diploma/Github/Battlecars
-C:/Users/crmdo/OneDrive/Desktop/2021 Diploma/Github/Battlecars
+64115
+Successfully changed project path to: C:/Users/crmdo/OneDrive/Desktop/2021 Diploma/Github/Networking-Battlecars
+C:/Users/crmdo/OneDrive/Desktop/2021 Diploma/Github/Networking-Battlecars
 Using Asset Import Pipeline V2.
-Refreshing native plugins compatible for Editor in 54.97 ms, found 0 plugins.
+Refreshing native plugins compatible for Editor in 28.83 ms, found 0 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Initialize engine version: 2020.2.2f1 (068178b99f32)
 [Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/2020.2.2f1/Editor/Data/Resources/UnitySubsystems
-[Subsystems] Discovering subsystems at path C:/Users/crmdo/OneDrive/Desktop/2021 Diploma/Github/Battlecars/Assets
+[Subsystems] Discovering subsystems at path C:/Users/crmdo/OneDrive/Desktop/2021 Diploma/Github/Networking-Battlecars/Assets
 GfxDevice: creating device client; threaded=0
 Direct3D:
     Version:  Direct3D 11.0 [level 11.1]
@@ -35,328 +35,1615 @@ Initialize mono
 Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/2020.2.2f1/Editor/Data/Managed'
 Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/2020.2.2f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit'
 Mono config path = 'C:/Program Files/Unity/Hub/Editor/2020.2.2f1/Editor/Data/MonoBleedingEdge/etc'
-Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56180
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56732
 Begin MonoManager ReloadAssembly
 Registering precompiled unity dll's ...
 Register platform support module: C:/Program Files/Unity/Hub/Editor/2020.2.2f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
-Registered in 0.002437 seconds.
+Registered in 0.001765 seconds.
 Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 41.57 ms, found 0 plugins.
+Refreshing native plugins compatible for Editor in 25.91 ms, found 0 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Invoked RoslynAnalysisRunner static constructor.
 RoslynAnalysisRunner will not be running.
 RoslynAnalysisRunner has terminated.
 Mono: successfully reloaded assembly
-- Completed reload, in  1.661 seconds
+- Completed reload, in  1.148 seconds
 Platform modules already initialized, skipping
 Registering precompiled user dll's ...
-Registered in 0.005960 seconds.
+Registered in 0.003661 seconds.
 Begin MonoManager ReloadAssembly
 Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 0.38 ms, found 0 plugins.
+Refreshing native plugins compatible for Editor in 0.28 ms, found 0 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Invoked RoslynAnalysisRunner static constructor.
 RoslynAnalysisRunner will not be running.
 RoslynAnalysisRunner has terminated.
-Find all reader and writers took 207 milliseconds
-Script Module: UnityEngine.UI.dll
-Weave behaviours and messages took177 milliseconds
-Find all reader and writers took 179 milliseconds
-Script Module: UnityEngine.TestRunner.dll
-Weave behaviours and messages took64 milliseconds
-Find all reader and writers took 167 milliseconds
-Script Module: SimpleWebTransport.dll
-Weave behaviours and messages took18 milliseconds
-Find all reader and writers took 168 milliseconds
-Script Module: Unity.Timeline.dll
-Weave behaviours and messages took87 milliseconds
-Find all reader and writers took 176 milliseconds
-Script Module: Mirror.Examples.dll
-[Projectile] NetworkBehaviourProcessor
-[Tank] NetworkBehaviourProcessor
-[NetworkRoomPlayer] NetworkBehaviourProcessor
-[NetworkRoomPlayerExt] NetworkBehaviourProcessor
-[PlayerController] NetworkBehaviourProcessor
-[PlayerScore] NetworkBehaviourProcessor
-[RandomColor] NetworkBehaviourProcessor
-[Reward] NetworkBehaviourProcessor
-[AddForce] NetworkBehaviourProcessor
-[Ball] NetworkBehaviourProcessor
-[Player] NetworkBehaviourProcessor
-[MatchController] NetworkBehaviourProcessor
-[PhysicsCollision] NetworkBehaviourProcessor
-[PlayerController] NetworkBehaviourProcessor
-[PlayerScore] NetworkBehaviourProcessor
-[RandomColor] NetworkBehaviourProcessor
-[Reward] NetworkBehaviourProcessor
-[Player] NetworkBehaviourProcessor
-[MonsterMovement] NetworkBehaviourProcessor
-[PlayerMovement] NetworkBehaviourProcessor
-[Player] NetworkBehaviourProcessor
-[PlayerController] NetworkBehaviourProcessor
-[RandomColor] NetworkBehaviourProcessor
-[ShootingTankBehaviour] NetworkBehaviourProcessor
-Weave behaviours and messages took51 milliseconds
-  ProcessSitesModule Mirror.Examples.dll elapsed time:00:00:00.0149582
-Find all reader and writers took 171 milliseconds
-Script Module: Mirror.Components.dll
-[NetworkAnimator] NetworkBehaviourProcessor
-[NetworkRoomPlayer] NetworkBehaviourProcessor
-[NetworkLobbyPlayer] NetworkBehaviourProcessor
-[NetworkVisibility] NetworkBehaviourProcessor
-[NetworkVisibility] Found NetworkBehaviour Mirror.NetworkVisibility
-[NetworkVisibility] Process Start
-[NetworkVisibility]   GenerateSerialization
-[NetworkVisibility]   GenerateDeSerialization
-[NetworkVisibility] Process Done
-[NetworkMatchChecker] NetworkBehaviourProcessor
-[NetworkVisibility] NetworkBehaviourProcessor
-[NetworkOwnerChecker] NetworkBehaviourProcessor
-[NetworkVisibility] NetworkBehaviourProcessor
-[NetworkProximityChecker] NetworkBehaviourProcessor
-[NetworkRoomPlayer] NetworkBehaviourProcessor
-[NetworkVisibility] NetworkBehaviourProcessor
-[NetworkSceneChecker] NetworkBehaviourProcessor
-[NetworkTransformBase] NetworkBehaviourProcessor
-[NetworkTransform] NetworkBehaviourProcessor
-[NetworkTransformBase] NetworkBehaviourProcessor
-[NetworkTransformBase] NetworkBehaviourProcessor
-[NetworkTransformChild] NetworkBehaviourProcessor
-[NetworkLerpRigidbody] NetworkBehaviourProcessor
-[NetworkRigidbody] NetworkBehaviourProcessor
-[NetworkRigidbody2D] NetworkBehaviourProcessor
-[NetworkTransformBase] NetworkBehaviourProcessor
-[NetworkTransform] NetworkBehaviourProcessor
-[NetworkTransformBase] NetworkBehaviourProcessor
-[NetworkTransformBase] NetworkBehaviourProcessor
-[NetworkTransformChild] NetworkBehaviourProcessor
-Weave behaviours and messages took55 milliseconds
-  ProcessSitesModule Mirror.Components.dll elapsed time:00:00:00.0029917
-Find all reader and writers took 174 milliseconds
-Script Module: Mirror.Tests.Common.dll
-Weave behaviours and messages took4 milliseconds
-Find all reader and writers took 200 milliseconds
-Script Module: Unity.TextMeshPro.dll
-Weave behaviours and messages took215 milliseconds
-Find all reader and writers took 159 milliseconds
-Script Module: Mirror.Tests.Runtime.dll
-Weave behaviours and messages took15 milliseconds
-Find all reader and writers took 163 milliseconds
-Script Module: Telepathy.dll
-Weave behaviours and messages took7 milliseconds
-Find all reader and writers took 166 milliseconds
-Script Module: Mirror.Authenticators.dll
-Weave behaviours and messages took5 milliseconds
-  ProcessSitesModule Mirror.Authenticators.dll elapsed time:00:00:00
-Find all reader and writers took 166 milliseconds
-Script Module: kcp2k.dll
-Weave behaviours and messages took10 milliseconds
-Find all reader and writers took 168 milliseconds
-Script Module: Mirror.Examples.Cloud.GUI.dll
-Weave behaviours and messages took8 milliseconds
-Find all reader and writers took 165 milliseconds
-Script Module: Mirror.Cloud.dll
-Weave behaviours and messages took11 milliseconds
-Find all reader and writers took 167 milliseconds
-Script Module: Mirror.Examples.Cloud.Pong.dll
-[Ball] NetworkBehaviourProcessor
-[BallManager] NetworkBehaviourProcessor
-[Player] NetworkBehaviourProcessor
-Weave behaviours and messages took5 milliseconds
-  ProcessSitesModule Mirror.Examples.Cloud.Pong.dll elapsed time:00:00:00
-Find all reader and writers took 160 milliseconds
-Script Module: Mirror.Tests.Performance.Runtime.dll
-Weave behaviours and messages took0 milliseconds
-Find all reader and writers took 230 milliseconds
-Script Module: UnityEditor.TestRunner.dll
-Weave behaviours and messages took101 milliseconds
-Find all reader and writers took 227 milliseconds
-Script Module: UnityEditor.UI.dll
-Weave behaviours and messages took38 milliseconds
-Find all reader and writers took 303 milliseconds
-Script Module: Mirror.Tests.dll
-[EmptyBehaviour] NetworkBehaviourProcessor
-[SyncVarGameObjectEqualExposedBehaviour] NetworkBehaviourProcessor
-[SyncVarNetworkIdentityEqualExposedBehaviour] NetworkBehaviourProcessor
-[NetworkBehaviourSendCommandInternalComponent] NetworkBehaviourProcessor
-[NetworkBehaviourSendRPCInternalComponent] NetworkBehaviourProcessor
-[NetworkBehaviourSendTargetRPCInternalComponent] NetworkBehaviourProcessor
-[NetworkBehaviourDelegateComponent] NetworkBehaviourProcessor
-[NetworkBehaviourSetSyncVarGameObjectComponent] NetworkBehaviourProcessor
-[NetworkBehaviourGetSyncVarGameObjectComponent] NetworkBehaviourProcessor
-[NetworkBehaviourSetSyncVarNetworkIdentityComponent] NetworkBehaviourProcessor
-[NetworkBehaviourGetSyncVarNetworkIdentityComponent] NetworkBehaviourProcessor
-[NetworkBehaviourInitSyncObjectExposed] NetworkBehaviourProcessor
-[OnStopClientComponent] NetworkBehaviourProcessor
-[OnStartClientComponent] NetworkBehaviourProcessor
-[OnStartLocalPlayerComponent] NetworkBehaviourProcessor
-[NetworkBehaviourHookGuardTester] NetworkBehaviourProcessor
-[NetworkBehaviourInitSyncObjectTester] NetworkBehaviourProcessor
-[CommandTestNetworkBehaviour] NetworkBehaviourProcessor
-[RpcTestNetworkBehaviour] NetworkBehaviourProcessor
-[OnStartClientTestNetworkBehaviour] NetworkBehaviourProcessor
-[OnStopClientTestNetworkBehaviour] NetworkBehaviourProcessor
-[TestObjectBehaviour] NetworkBehaviourProcessor
-[TestPlayerBehaviour] NetworkBehaviourProcessor
-[HookBehaviour] NetworkBehaviourProcessor
-[GameObjectHookBehaviour] NetworkBehaviourProcessor
-[NetworkIdentityHookBehaviour] NetworkBehaviourProcessor
-[NetworkBehaviourHookBehaviour] NetworkBehaviourProcessor
-[StaticHookBehaviour] NetworkBehaviourProcessor
-[VirtualHookBase] NetworkBehaviourProcessor
-[VirtualHookBase] NetworkBehaviourProcessor
-[VirtualOverrideHook] NetworkBehaviourProcessor
-[AbstractHookBase] NetworkBehaviourProcessor
-[AbstractHookBase] NetworkBehaviourProcessor
-[AbstractHook] NetworkBehaviourProcessor
-[MockPlayer] NetworkBehaviourProcessor
-[SyncVarGameObject] NetworkBehaviourProcessor
-[SyncVarNetworkIdentity] NetworkBehaviourProcessor
-[SyncVarTransform] NetworkBehaviourProcessor
-[SyncVarNetworkBehaviour] NetworkBehaviourProcessor
-[AbstractBehaviour] NetworkBehaviourProcessor
-[BehaviourWithSyncVar] NetworkBehaviourProcessor
-[AbstractBehaviour] NetworkBehaviourProcessor
-[OverrideBehaviourFromSyncVar] NetworkBehaviourProcessor
-[AbstractBehaviour] NetworkBehaviourProcessor
-[OverrideBehaviourWithSyncVarFromSyncVar] NetworkBehaviourProcessor
-[AbstractBehaviour] NetworkBehaviourProcessor
-[MiddleClass] NetworkBehaviourProcessor
-[AbstractBehaviour] NetworkBehaviourProcessor
-[MiddleClass] NetworkBehaviourProcessor
-[SubClass] NetworkBehaviourProcessor
-[AbstractBehaviour] NetworkBehaviourProcessor
-[MiddleClassWithSyncVar] NetworkBehaviourProcessor
-[AbstractBehaviour] NetworkBehaviourProcessor
-[MiddleClassWithSyncVar] NetworkBehaviourProcessor
-[SubClassFromSyncVar] NetworkBehaviourProcessor
-[BehaviourWithSyncVarWithOnSerialize] NetworkBehaviourProcessor
-[AbstractBehaviour] NetworkBehaviourProcessor
-[OverrideBehaviourFromSyncVarWithOnSerialize] NetworkBehaviourProcessor
-[AbstractBehaviour] NetworkBehaviourProcessor
-[OverrideBehaviourWithSyncVarFromSyncVarWithOnSerialize] NetworkBehaviourProcessor
-[AttributeBehaviour_NetworkBehaviour] NetworkBehaviourProcessor
-[DataSenderBehaviour] NetworkBehaviourProcessor
-[PayloadTestBehaviour] NetworkBehaviourProcessor
-[BehaviourWithEvents] NetworkBehaviourProcessor
-[VirtualClientRpc] NetworkBehaviourProcessor
-[VirtualClientRpc] NetworkBehaviourProcessor
-[VirtualNoOverrideClientRpc] NetworkBehaviourProcessor
-[VirtualClientRpc] NetworkBehaviourProcessor
-[VirtualOverrideClientRpc] NetworkBehaviourProcessor
-[VirtualClientRpc] NetworkBehaviourProcessor
-[VirtualOverrideClientRpcWithBase] NetworkBehaviourProcessor
-[ClientRpcBehaviour] NetworkBehaviourProcessor
-[ExcludeOwnerBehaviour] NetworkBehaviourProcessor
-[VirtualCommand] NetworkBehaviourProcessor
-[VirtualCommand] NetworkBehaviourProcessor
-[VirtualNoOverrideCommand] NetworkBehaviourProcessor
-[VirtualCommand] NetworkBehaviourProcessor
-[VirtualOverrideCommand] NetworkBehaviourProcessor
-[VirtualCommand] NetworkBehaviourProcessor
-[VirtualOverrideCommandWithBase] NetworkBehaviourProcessor
-[VirtualCommand] NetworkBehaviourProcessor
-[VirtualOverrideCommandWithBase] NetworkBehaviourProcessor
-[VirtualOverrideCommandWithBase2] NetworkBehaviourProcessor
-[AuthorityBehaviour] NetworkBehaviourProcessor
-[IgnoreAuthorityBehaviour] NetworkBehaviourProcessor
-[SenderConnectionBehaviour] NetworkBehaviourProcessor
-[SenderConnectionIgnoreAuthorityBehaviour] NetworkBehaviourProcessor
-[ThrowBehaviour] NetworkBehaviourProcessor
-[RpcNetworkIdentityBehaviour] NetworkBehaviourProcessor
-[VirtualTargetRpc] NetworkBehaviourProcessor
-[VirtualTargetRpc] NetworkBehaviourProcessor
-[VirtualNoOverrideTargetRpc] NetworkBehaviourProcessor
-[VirtualTargetRpc] NetworkBehaviourProcessor
-[VirtualOverrideTargetRpc] NetworkBehaviourProcessor
-[VirtualTargetRpc] NetworkBehaviourProcessor
-[VirtualOverrideTargetRpcWithBase] NetworkBehaviourProcessor
-[TargetRpcBehaviour] NetworkBehaviourProcessor
-Weave behaviours and messages took258 milliseconds
-  ProcessSitesModule Mirror.Tests.dll elapsed time:00:00:00.0149601
-Find all reader and writers took 193 milliseconds
-Script Module: WeaverTestExtraAssembly.dll
-Weave behaviours and messages took3 milliseconds
-  ProcessSitesModule WeaverTestExtraAssembly.dll elapsed time:00:00:00
-Find all reader and writers took 227 milliseconds
-Script Module: Mirror.CompilerSymbols.dll
-Weave behaviours and messages took0 milliseconds
 Mono: successfully reloaded assembly
-- Completed reload, in 13.421 seconds
+- Completed reload, in  0.824 seconds
 Platform modules already initialized, skipping
 ========================================================================
 Worker process is ready to serve import requests
-Launched and connected shader compiler UnityShaderCompiler.exe after 0.07 seconds
-Refreshing native plugins compatible for Editor in 0.38 ms, found 0 plugins.
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.04 seconds
+Refreshing native plugins compatible for Editor in 0.27 ms, found 0 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Unloading 1484 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 67.4 MB.
-System memory in use after: 67.4 MB.
+System memory in use before: 67.2 MB.
+System memory in use after: 67.2 MB.
 
-Unloading 18 unused Assets to reduce memory usage. Loaded Objects now: 1917.
-Total: 3.057600 ms (FindLiveObjects: 0.214400 ms CreateObjectMapping: 0.075700 ms MarkObjects: 2.672700 ms  DeleteObjects: 0.092900 ms)
-
-========================================================================
-Received Import Request.
-  path: Assets/Mirror/Runtime/Transport/Telepathy/Telepathy/Telepathy.asmdef
-  artifactKey: Guid(725ee7191c021de4dbf9269590ded755) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Mirror/Runtime/Transport/Telepathy/Telepathy/Telepathy.asmdef using Guid(725ee7191c021de4dbf9269590ded755) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '56cb9b2be1e7605c4157e5cbe63551e6') in 0.047587 seconds
-  Import took 0.050856 seconds .
+Unloading 18 unused Assets to reduce memory usage. Loaded Objects now: 1918.
+Total: 1.741600 ms (FindLiveObjects: 0.185100 ms CreateObjectMapping: 0.081700 ms MarkObjects: 1.401100 ms  DeleteObjects: 0.072900 ms)
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000290 seconds.
-  path: Assets/Mirror
-  artifactKey: Guid(5cf8eb36be0834b3da408c694a41cb88) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Mirror using Guid(5cf8eb36be0834b3da408c694a41cb88) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '10e42af97a05a1d470f895b42bf6f5bf') in 0.009619 seconds
-  Import took 0.013048 seconds .
+  path: Assets/Mirror/Runtime/Transport
+  artifactKey: Guid(7825d46cd73fe47938869eb5427b40fa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Mirror/Runtime/Transport using Guid(7825d46cd73fe47938869eb5427b40fa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0c4e54eb0287849100a8affab98af7c1') in 0.009213 seconds
+  Import took 0.011479 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000288 seconds.
-  path: Assets/Battlecars/Scenes
-  artifactKey: Guid(15c238e991b5dfc4ea50a6b113d1df34) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Battlecars/Scenes using Guid(15c238e991b5dfc4ea50a6b113d1df34) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f15cfd21ceb6026eff54282c96fc8487') in 0.011005 seconds
-  Import took 0.014071 seconds .
+  Time since last request: 0.000236 seconds.
+  path: Assets/Mirror/Runtime
+  artifactKey: Guid(9f4328ccc5f724e45afe2215d275b5d5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Mirror/Runtime using Guid(9f4328ccc5f724e45afe2215d275b5d5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '96f4378a2b72206bed9bbb496c15e7cb') in 0.006619 seconds
+  Import took 0.008671 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000291 seconds.
-  path: Assets/Battlecars
-  artifactKey: Guid(d632036ecd41b28439e7e8dddb745b0f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Battlecars using Guid(d632036ecd41b28439e7e8dddb745b0f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '02e93d3f8c84d54e3fed3c83bb099e8d') in 0.009643 seconds
-  Import took 0.012870 seconds .
+  Time since last request: 0.808957 seconds.
+  path: Assets/Mirror/Runtime/Transport/Telepathy
+  artifactKey: Guid(552b3d8382916438d81fe7f39e18db72) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Mirror/Runtime/Transport/Telepathy using Guid(552b3d8382916438d81fe7f39e18db72) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '968d77f3d974e736e1c4f1c68905a976') in 0.008022 seconds
+  Import took 0.010176 seconds .
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.003353 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.29 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Failed to find Mirror runtime assembly
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:LogError (object)
+Mirror.Weaver.CompilationFinishedHook:OnCompilationFinished (string,UnityEditor.Compilation.CompilerMessage[]) (at Assets/Mirror/Editor/Weaver/CompilationFinishedHook.cs:116)
+Mirror.Weaver.CompilationFinishedHook:WeaveExistingAssemblies () (at Assets/Mirror/Editor/Weaver/CompilationFinishedHook.cs:62)
+Mirror.Weaver.CompilationFinishedHook:OnInitializeOnLoad () (at Assets/Mirror/Editor/Weaver/CompilationFinishedHook.cs:52)
+
+(Filename: Assets/Mirror/Editor/Weaver/CompilationFinishedHook.cs Line: 116)
+
+Failed to find Mirror runtime assembly
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:LogError (object)
+Mirror.Weaver.CompilationFinishedHook:OnCompilationFinished (string,UnityEditor.Compilation.CompilerMessage[]) (at Assets/Mirror/Editor/Weaver/CompilationFinishedHook.cs:116)
+Mirror.Weaver.CompilationFinishedHook:WeaveExistingAssemblies () (at Assets/Mirror/Editor/Weaver/CompilationFinishedHook.cs:62)
+Mirror.Weaver.CompilationFinishedHook:OnInitializeOnLoad () (at Assets/Mirror/Editor/Weaver/CompilationFinishedHook.cs:52)
+
+(Filename: Assets/Mirror/Editor/Weaver/CompilationFinishedHook.cs Line: 116)
+
+Failed to find Mirror runtime assembly
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:LogError (object)
+Mirror.Weaver.CompilationFinishedHook:OnCompilationFinished (string,UnityEditor.Compilation.CompilerMessage[]) (at Assets/Mirror/Editor/Weaver/CompilationFinishedHook.cs:116)
+Mirror.Weaver.CompilationFinishedHook:WeaveExistingAssemblies () (at Assets/Mirror/Editor/Weaver/CompilationFinishedHook.cs:62)
+Mirror.Weaver.CompilationFinishedHook:OnInitializeOnLoad () (at Assets/Mirror/Editor/Weaver/CompilationFinishedHook.cs:52)
+
+(Filename: Assets/Mirror/Editor/Weaver/CompilationFinishedHook.cs Line: 116)
+
+Failed to find Mirror runtime assembly
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:LogError (object)
+Mirror.Weaver.CompilationFinishedHook:OnCompilationFinished (string,UnityEditor.Compilation.CompilerMessage[]) (at Assets/Mirror/Editor/Weaver/CompilationFinishedHook.cs:116)
+Mirror.Weaver.CompilationFinishedHook:WeaveExistingAssemblies () (at Assets/Mirror/Editor/Weaver/CompilationFinishedHook.cs:62)
+Mirror.Weaver.CompilationFinishedHook:OnInitializeOnLoad () (at Assets/Mirror/Editor/Weaver/CompilationFinishedHook.cs:52)
+
+(Filename: Assets/Mirror/Editor/Weaver/CompilationFinishedHook.cs Line: 116)
+
+Failed to find Mirror runtime assembly
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:LogError (object)
+Mirror.Weaver.CompilationFinishedHook:OnCompilationFinished (string,UnityEditor.Compilation.CompilerMessage[]) (at Assets/Mirror/Editor/Weaver/CompilationFinishedHook.cs:116)
+Mirror.Weaver.CompilationFinishedHook:WeaveExistingAssemblies () (at Assets/Mirror/Editor/Weaver/CompilationFinishedHook.cs:62)
+Mirror.Weaver.CompilationFinishedHook:OnInitializeOnLoad () (at Assets/Mirror/Editor/Weaver/CompilationFinishedHook.cs:52)
+
+(Filename: Assets/Mirror/Editor/Weaver/CompilationFinishedHook.cs Line: 116)
+
+Mono: successfully reloaded assembly
+- Completed reload, in  1.078 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.28 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1473 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 67.7 MB.
+System memory in use after: 67.8 MB.
+
+Unloading 19 unused Assets to reduce memory usage. Loaded Objects now: 1914.
+Total: 1.871800 ms (FindLiveObjects: 0.262200 ms CreateObjectMapping: 0.058900 ms MarkObjects: 1.496400 ms  DeleteObjects: 0.052600 ms)
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000279 seconds.
-  path: Assets/Battlecars/Scenes/Lobby.unity
-  artifactKey: Guid(38fda91e4cc3dd54bb779dafeeb3870e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Battlecars/Scenes/Lobby.unity using Guid(38fda91e4cc3dd54bb779dafeeb3870e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '016ff5eb0ba80b729e34657d6eec9f49') in 0.020572 seconds
-  Import took 0.024256 seconds .
+  Time since last request: 107.194185 seconds.
+  path: Assets/Mirror/Runtime/Mirror.asmdef
+  artifactKey: Guid(30817c1a0e6d646d99c048fc403f5979) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Mirror/Runtime/Mirror.asmdef using Guid(30817c1a0e6d646d99c048fc403f5979) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c9d6e7945364a12fce7ede4527fb84eb') in 0.025951 seconds
+  Import took 0.028511 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 4.665288 seconds.
-  path: Assets/Scenes
-  artifactKey: Guid(0707af89811f047458bd069cba54bf73) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scenes using Guid(0707af89811f047458bd069cba54bf73) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7a5ad32ba5a91b84123e7d87ad1c6839') in 0.003908 seconds
-  Import took 0.007558 seconds .
+  Time since last request: 15.394157 seconds.
+  path: Assets/Mirror/Runtime/Transport/SimpleWebTransport/SimpleWebTransport.asmdef
+  artifactKey: Guid(3b5390adca4e2bb4791cb930316d6f3e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Mirror/Runtime/Transport/SimpleWebTransport/SimpleWebTransport.asmdef using Guid(3b5390adca4e2bb4791cb930316d6f3e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '218587add28b5490e4fc31718207f754') in 0.008051 seconds
+  Import took 0.010148 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.001114 seconds.
-  path: Assets/Scenes
-  artifactKey: Guid(0707af89811f047458bd069cba54bf73) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scenes using Guid(0707af89811f047458bd069cba54bf73) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7a5ad32ba5a91b84123e7d87ad1c6839') in 0.003598 seconds
-  Import took 0.006951 seconds .
+  Time since last request: 349.423877 seconds.
+  path: Assets/Battlecars/Prefabs/Player.prefab
+  artifactKey: Guid(0c6976fb35bfb2544b3cf1e5ac50e30a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Battlecars/Prefabs/Player.prefab using Guid(0c6976fb35bfb2544b3cf1e5ac50e30a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'df9e5be0998c78c3f0b1a0bf48bcabb6') in 0.032881 seconds
+  Import took 0.035040 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 16.783810 seconds.
-  path: Assets/Battlecars/Scenes/Offline.unity
-  artifactKey: Guid(8226b311cdbfd924fac4e5994f926230) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Battlecars/Scenes/Offline.unity using Guid(8226b311cdbfd924fac4e5994f926230) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a057bbba47b4cea56b8c683062b5e335') in 0.012052 seconds
-  Import took 0.015371 seconds .
+  Time since last request: 9.222426 seconds.
+  path: Assets/Battlecars/Prefabs/Vehicles/Vehicle 1.prefab
+  artifactKey: Guid(4ed65d69118f9cb448d34999c1c7789d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Battlecars/Prefabs/Vehicles/Vehicle 1.prefab using Guid(4ed65d69118f9cb448d34999c1c7789d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cc7337a906344520202770882e117793') in 0.554977 seconds
+  Import took 0.559136 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000172 seconds.
+  path: Assets/Battlecars/Prefabs/Nature/Grass_01.prefab
+  artifactKey: Guid(f1fc5bb90ac285e4486771552d63bcb8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Battlecars/Prefabs/Nature/Grass_01.prefab using Guid(f1fc5bb90ac285e4486771552d63bcb8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2699515e573942c549c3874a7a73f18e') in 0.221640 seconds
+  Import took 0.223766 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000168 seconds.
+  path: Assets/Battlecars/Prefabs/Vehicles/Vehicle 2.prefab
+  artifactKey: Guid(fd741faad8eb1014cbe3325f2d93158b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Battlecars/Prefabs/Vehicles/Vehicle 2.prefab using Guid(fd741faad8eb1014cbe3325f2d93158b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '887e84fae6cff998a71587c2d06ea35c') in 0.346401 seconds
+  Import took 0.350183 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000166 seconds.
+  path: Assets/Battlecars/Prefabs/Nature/Rock_02.prefab
+  artifactKey: Guid(cebfacc247a640945a2c30b442202fca) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Battlecars/Prefabs/Nature/Rock_02.prefab using Guid(cebfacc247a640945a2c30b442202fca) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '577a787b1f677073129e6b36c60b8551') in 0.025245 seconds
+  Import took 0.027325 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000173 seconds.
+  path: Assets/Battlecars/Prefabs/Nature/Ground_01.prefab
+  artifactKey: Guid(ebee340de387f334f9ac44e044abd8fb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Battlecars/Prefabs/Nature/Ground_01.prefab using Guid(ebee340de387f334f9ac44e044abd8fb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '48a3d4615d1e466d235b4a0f7555d9ee') in 0.026043 seconds
+  Import took 0.028261 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000162 seconds.
+  path: Assets/Battlecars/Prefabs/Nature/Mushroom_01.prefab
+  artifactKey: Guid(ff62b58c5a9ea164fa8ddf8038e10cd1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Battlecars/Prefabs/Nature/Mushroom_01.prefab using Guid(ff62b58c5a9ea164fa8ddf8038e10cd1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f586f840432b9610c9d54ab72d6ce33c') in 0.024562 seconds
+  Import took 0.026891 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000177 seconds.
+  path: Assets/Battlecars/Prefabs/Nature/Ground_03.prefab
+  artifactKey: Guid(3f9b178ccd3b86f4ebbfc1f5a2815e56) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Battlecars/Prefabs/Nature/Ground_03.prefab using Guid(3f9b178ccd3b86f4ebbfc1f5a2815e56) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c0d4f61006489f93db5242fef56d06e8') in 0.025737 seconds
+  Import took 0.028068 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000168 seconds.
+  path: Assets/Battlecars/Prefabs/Nature/Mushroom_02.prefab
+  artifactKey: Guid(494f6d43e170e9145bc7865d243ee00b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Battlecars/Prefabs/Nature/Mushroom_02.prefab using Guid(494f6d43e170e9145bc7865d243ee00b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e07128a58f2e5d6ad00bcef018e2f84c') in 0.025351 seconds
+  Import took 0.027561 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000165 seconds.
+  path: Assets/Battlecars/Prefabs/Nature/Grass_02.prefab
+  artifactKey: Guid(ffbddc4ef9676cc419e81e06aaa836d8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Battlecars/Prefabs/Nature/Grass_02.prefab using Guid(ffbddc4ef9676cc419e81e06aaa836d8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9a00d580a7c364b2d43d1e6aad84fdd7') in 0.029722 seconds
+  Import took 0.032052 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000212 seconds.
+  path: Assets/Battlecars/Prefabs/Nature/Bush_01.prefab
+  artifactKey: Guid(3cdafb3c2f54d434894928d72d282874) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Battlecars/Prefabs/Nature/Bush_01.prefab using Guid(3cdafb3c2f54d434894928d72d282874) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2ed7d2234d4d650f19d91582cfc1798b') in 0.035817 seconds
+  Import took 0.039733 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000246 seconds.
+  path: Assets/Battlecars/Prefabs/Nature/Rock_03.prefab
+  artifactKey: Guid(0fde05fa0f3321942a21896ff4f0856f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Battlecars/Prefabs/Nature/Rock_03.prefab using Guid(0fde05fa0f3321942a21896ff4f0856f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'be11817cd680d0e1ee809c0b39036d34') in 0.030456 seconds
+  Import took 0.033215 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000179 seconds.
+  path: Assets/Battlecars/Prefabs/Vehicles/Vehicle 3.prefab
+  artifactKey: Guid(b93ee73748e1f474f82d943121e15385) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Battlecars/Prefabs/Vehicles/Vehicle 3.prefab using Guid(b93ee73748e1f474f82d943121e15385) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '418fbf377e838d350a7a7b383ad33de9') in 0.198115 seconds
+  Import took 0.202455 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000162 seconds.
+  path: Assets/Battlecars/Prefabs/Nature/Branch_01.prefab
+  artifactKey: Guid(b9de24523a11d714db3851b5f0f9d527) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Battlecars/Prefabs/Nature/Branch_01.prefab using Guid(b9de24523a11d714db3851b5f0f9d527) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '297c39c626ee4cd865cc8410a9c11647') in 0.024371 seconds
+  Import took 0.026604 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000202 seconds.
+  path: Assets/Battlecars/Prefabs/Nature/Rock_01.prefab
+  artifactKey: Guid(c6308cb7062fac34e8e50600086b12a1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Battlecars/Prefabs/Nature/Rock_01.prefab using Guid(c6308cb7062fac34e8e50600086b12a1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '49b4b2820d46525a6515dd599af0e86e') in 0.022872 seconds
+  Import took 0.025042 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000173 seconds.
+  path: Assets/Battlecars/Prefabs/Nature/Ground_02.prefab
+  artifactKey: Guid(e2e682b966e3f644392ffbfab511e0e2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Battlecars/Prefabs/Nature/Ground_02.prefab using Guid(e2e682b966e3f644392ffbfab511e0e2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3940f98f593322283024f76b7657a475') in 0.022987 seconds
+  Import took 0.025161 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000177 seconds.
+  path: Assets/Battlecars/Prefabs/Nature/Bush_02.prefab
+  artifactKey: Guid(b71b0f8d2f881c743a85228f3030d1cb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Battlecars/Prefabs/Nature/Bush_02.prefab using Guid(b71b0f8d2f881c743a85228f3030d1cb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '37cff4dcfc628de5772019d45be991c8') in 0.025668 seconds
+  Import took 0.027760 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 3.006585 seconds.
+  path: Assets/Battlecars/Art/Materials/Nature/SimpleNaturePack_BG.mat
+  artifactKey: Guid(5f2c2ee5f84253b41b3ff0c1aafcc515) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Battlecars/Art/Materials/Nature/SimpleNaturePack_BG.mat using Guid(5f2c2ee5f84253b41b3ff0c1aafcc515) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2c92d0809c67d0d83046ec66c82de07a') in 0.045083 seconds
+  Import took 0.047280 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000165 seconds.
+  path: Assets/Battlecars/Art/Materials/Nature/SimpleNaturePack_Texture_01.mat
+  artifactKey: Guid(93caadf4359ae8143aad35b3145d31af) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Battlecars/Art/Materials/Nature/SimpleNaturePack_Texture_01.mat using Guid(93caadf4359ae8143aad35b3145d31af) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bad2fae6b118e2ba90419e76aff06335') in 0.019009 seconds
+  Import took 0.021254 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 1.727651 seconds.
+  path: Assets/Battlecars/Art/Materials/Vehicles/Vehicle 1/Cannon_1_D.mat
+  artifactKey: Guid(09acc8aa0895cc647b4c403043313175) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Battlecars/Art/Materials/Vehicles/Vehicle 1/Cannon_1_D.mat using Guid(09acc8aa0895cc647b4c403043313175) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '77b33bd567d9c0f69db8bd923484f8a6') in 0.023128 seconds
+  Import took 0.025379 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000158 seconds.
+  path: Assets/Battlecars/Art/Materials/Vehicles/Vehicle 1/Wheels_2_D.mat
+  artifactKey: Guid(ef4b06217c59dab4c85461fa0dbb175e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Battlecars/Art/Materials/Vehicles/Vehicle 1/Wheels_2_D.mat using Guid(ef4b06217c59dab4c85461fa0dbb175e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e979566158c844f8e3f44f9d20c16029') in 0.026252 seconds
+  Import took 0.029661 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000167 seconds.
+  path: Assets/Battlecars/Art/Materials/Vehicles/Vehicle 1/Vehicle_1_D.mat
+  artifactKey: Guid(6f18d617d16bfd340a72aa6a00a147e5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Battlecars/Art/Materials/Vehicles/Vehicle 1/Vehicle_1_D.mat using Guid(6f18d617d16bfd340a72aa6a00a147e5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3ab19e2f93f2e08025bc85780291bb39') in 0.036020 seconds
+  Import took 0.038666 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000171 seconds.
+  path: Assets/Battlecars/Art/Materials/Vehicles/Vehicle 1/Wheels_1_D.mat
+  artifactKey: Guid(a9f4db442e5daed4f844c97fb8feddff) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Battlecars/Art/Materials/Vehicles/Vehicle 1/Wheels_1_D.mat using Guid(a9f4db442e5daed4f844c97fb8feddff) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b2ee2d2850e1f6e5f8037ff73a795fd6') in 0.021790 seconds
+  Import took 0.024016 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.002958 seconds.
+  path: Assets/Battlecars/Art/Materials/Vehicles/Vehicle 1/Wheels_1_D.mat
+  artifactKey: Guid(a9f4db442e5daed4f844c97fb8feddff) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Battlecars/Art/Materials/Vehicles/Vehicle 1/Wheels_1_D.mat using Guid(a9f4db442e5daed4f844c97fb8feddff) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b2ee2d2850e1f6e5f8037ff73a795fd6') in 0.016128 seconds
+  Import took 0.018756 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.326395 seconds.
+  path: Assets/Battlecars/Art/Materials/Vehicles/Vehicle 2/Rockets_1_D.mat
+  artifactKey: Guid(a688d5f62cf7f7c4a993975ee1c955e9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Battlecars/Art/Materials/Vehicles/Vehicle 2/Rockets_1_D.mat using Guid(a688d5f62cf7f7c4a993975ee1c955e9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '38b2453e61d746af4acbb7c471a7ad4b') in 0.020211 seconds
+  Import took 0.022473 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000158 seconds.
+  path: Assets/Battlecars/Art/Materials/Vehicles/Vehicle 2/Vehicle_2_D.mat
+  artifactKey: Guid(edf2b59594c6c2141a97931442d4bab9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Battlecars/Art/Materials/Vehicles/Vehicle 2/Vehicle_2_D.mat using Guid(edf2b59594c6c2141a97931442d4bab9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e346194eb408cf5d9939666391e50fe8') in 0.029646 seconds
+  Import took 0.032660 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000156 seconds.
+  path: Assets/Battlecars/Art/Materials/Vehicles/Vehicle 2/Wheels_1_D.mat
+  artifactKey: Guid(25daba2fe34cfd34d9f535b883869a66) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Battlecars/Art/Materials/Vehicles/Vehicle 2/Wheels_1_D.mat using Guid(25daba2fe34cfd34d9f535b883869a66) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c65ce74d48105754056efd2ad6872344') in 0.016452 seconds
+  Import took 0.018598 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.003330 seconds.
+  path: Assets/Battlecars/Art/Materials/Vehicles/Vehicle 2/Wheels_1_D.mat
+  artifactKey: Guid(25daba2fe34cfd34d9f535b883869a66) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Battlecars/Art/Materials/Vehicles/Vehicle 2/Wheels_1_D.mat using Guid(25daba2fe34cfd34d9f535b883869a66) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c65ce74d48105754056efd2ad6872344') in 0.015924 seconds
+  Import took 0.018559 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.310023 seconds.
+  path: Assets/Battlecars/Art/Materials/Vehicles/Vehicle 3/Radar_1_D.mat
+  artifactKey: Guid(28171fa1bc9120c4c965a215cfe6530f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Battlecars/Art/Materials/Vehicles/Vehicle 3/Radar_1_D.mat using Guid(28171fa1bc9120c4c965a215cfe6530f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7e48eedd2979d6b088b9ee6890f953f4') in 0.019048 seconds
+  Import took 0.021325 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000156 seconds.
+  path: Assets/Battlecars/Art/Materials/Vehicles/Vehicle 3/Wheels_1_D.mat
+  artifactKey: Guid(7889db36a8d8a2f4a84a72c2d34593ca) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Battlecars/Art/Materials/Vehicles/Vehicle 3/Wheels_1_D.mat using Guid(7889db36a8d8a2f4a84a72c2d34593ca) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '492aba1622edf7cdcedc9aa46ebaa281') in 0.016832 seconds
+  Import took 0.019409 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000171 seconds.
+  path: Assets/Battlecars/Art/Materials/Vehicles/Vehicle 3/Vehicle_3_D.mat
+  artifactKey: Guid(ee10e080610262c4ba680a539e55b33f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Battlecars/Art/Materials/Vehicles/Vehicle 3/Vehicle_3_D.mat using Guid(ee10e080610262c4ba680a539e55b33f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'dc752f3dd5cb5236aca9fbd24fc13437') in 0.030559 seconds
+  Import took 0.033634 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000205 seconds.
+  path: Assets/Battlecars/Art/Materials/Vehicles/Vehicle 3/Wheels_3_D.mat
+  artifactKey: Guid(4139ea783a9c1df4182b3469cb873853) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Battlecars/Art/Materials/Vehicles/Vehicle 3/Wheels_3_D.mat using Guid(4139ea783a9c1df4182b3469cb873853) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ef1d6180c8c0ee453d268477f357513c') in 0.020396 seconds
+  Import took 0.023113 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.002361 seconds.
+  path: Assets/Battlecars/Art/Materials/Vehicles/Vehicle 3/Wheels_3_D.mat
+  artifactKey: Guid(4139ea783a9c1df4182b3469cb873853) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Battlecars/Art/Materials/Vehicles/Vehicle 3/Wheels_3_D.mat using Guid(4139ea783a9c1df4182b3469cb873853) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ef1d6180c8c0ee453d268477f357513c') in 0.015360 seconds
+  Import took 0.017906 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 1.160284 seconds.
+  path: Assets/Battlecars/Art/Models/Nature/Branch_01.fbx
+  artifactKey: Guid(5528351815fd4c04abf537f22c7e18f1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Battlecars/Art/Models/Nature/Branch_01.fbx using Guid(5528351815fd4c04abf537f22c7e18f1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '16fc380fd9c54566fc84905560b827fa') in 0.088231 seconds
+  Import took 0.090882 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000158 seconds.
+  path: Assets/Battlecars/Art/Models/Nature/Rock_02.fbx
+  artifactKey: Guid(3a775dc2c1a334b45a5667a56fe92c23) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Battlecars/Art/Models/Nature/Rock_02.fbx using Guid(3a775dc2c1a334b45a5667a56fe92c23) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f9561c5be3b11900ed2cf8897396b1fc') in 0.014404 seconds
+  Import took 0.016598 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000164 seconds.
+  path: Assets/Battlecars/Art/Models/Nature/Rock_03.fbx
+  artifactKey: Guid(14125b656fb71fd4d9d65bfe344107ad) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Battlecars/Art/Models/Nature/Rock_03.fbx using Guid(14125b656fb71fd4d9d65bfe344107ad) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '987db8981d7ff22d7eb44b48f92e9325') in 0.015813 seconds
+  Import took 0.018182 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000186 seconds.
+  path: Assets/Battlecars/Art/Models/Nature/Mushroom_01.fbx
+  artifactKey: Guid(d062f5c56ffb55c4f832432ada269abe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Battlecars/Art/Models/Nature/Mushroom_01.fbx using Guid(d062f5c56ffb55c4f832432ada269abe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5df8d1bf6a87177e84df50583f275353') in 0.017980 seconds
+  Import took 0.020435 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000163 seconds.
+  path: Assets/Battlecars/Art/Models/Nature/Ground_02.fbx
+  artifactKey: Guid(57d3eed6d2253d24994d5ad37e00aedc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Battlecars/Art/Models/Nature/Ground_02.fbx using Guid(57d3eed6d2253d24994d5ad37e00aedc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9ffbc44254122fc4528e242bc27e6854') in 0.020895 seconds
+  Import took 0.023834 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000199 seconds.
+  path: Assets/Battlecars/Art/Models/Nature/Ground_03.fbx
+  artifactKey: Guid(661464e19c087564badb2bf5230c842c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Battlecars/Art/Models/Nature/Ground_03.fbx using Guid(661464e19c087564badb2bf5230c842c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1cc643e1b5f167b3ff2ec4dd86356456') in 0.021047 seconds
+  Import took 0.024551 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000252 seconds.
+  path: Assets/Battlecars/Art/Models/Nature/Bush_01.fbx
+  artifactKey: Guid(d8ea93d2d4757e444a5349f4bc849128) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Battlecars/Art/Models/Nature/Bush_01.fbx using Guid(d8ea93d2d4757e444a5349f4bc849128) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd9f43f0ddb79302027d6f0bc6f8d8654') in 0.022176 seconds
+  Import took 0.024964 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000170 seconds.
+  path: Assets/Battlecars/Art/Models/Nature/Mushroom_02.fbx
+  artifactKey: Guid(6c890c97a154a474082af84a379dffce) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Battlecars/Art/Models/Nature/Mushroom_02.fbx using Guid(6c890c97a154a474082af84a379dffce) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e5a321f4a3679409acd32950f64a802f') in 0.019324 seconds
+  Import took 0.021563 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000160 seconds.
+  path: Assets/Battlecars/Art/Models/Nature/Grass_02.fbx
+  artifactKey: Guid(638dc165572d2a84081d13ce1afb4d52) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Battlecars/Art/Models/Nature/Grass_02.fbx using Guid(638dc165572d2a84081d13ce1afb4d52) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5b235a70f327d3b1cb798f3261c0cb5d') in 0.020546 seconds
+  Import took 0.022984 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000178 seconds.
+  path: Assets/Battlecars/Art/Models/Nature/Mushroom_02.fbx
+  artifactKey: Guid(6c890c97a154a474082af84a379dffce) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Battlecars/Art/Models/Nature/Mushroom_02.fbx using Guid(6c890c97a154a474082af84a379dffce) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e5a321f4a3679409acd32950f64a802f') in 0.012709 seconds
+  Import took 0.015111 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000172 seconds.
+  path: Assets/Battlecars/Art/Models/Nature/Ground_01.fbx
+  artifactKey: Guid(d4ad967689295ba4eaf8baeaebc8721b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Battlecars/Art/Models/Nature/Ground_01.fbx using Guid(d4ad967689295ba4eaf8baeaebc8721b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7b172abfe4150b97ef4dbf9e3b4b63c2') in 0.017280 seconds
+  Import took 0.019708 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000175 seconds.
+  path: Assets/Battlecars/Art/Models/Nature/Rock_01.fbx
+  artifactKey: Guid(e9089b1db16b58f4282a94e020b9c0e8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Battlecars/Art/Models/Nature/Rock_01.fbx using Guid(e9089b1db16b58f4282a94e020b9c0e8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a376f832a7bdb9ad2d918139bfd1b032') in 0.016583 seconds
+  Import took 0.018922 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000198 seconds.
+  path: Assets/Battlecars/Art/Models/Nature/Bush_02.fbx
+  artifactKey: Guid(ba52853a69186a841a52a9cc2e9b77fa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Battlecars/Art/Models/Nature/Bush_02.fbx using Guid(ba52853a69186a841a52a9cc2e9b77fa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '495c1329d6b27583d4efe68daaeeb908') in 0.016441 seconds
+  Import took 0.018766 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000158 seconds.
+  path: Assets/Battlecars/Art/Models/Nature/Grass_01.fbx
+  artifactKey: Guid(ad3119cbd6dce024e8460ef32dec49df) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Battlecars/Art/Models/Nature/Grass_01.fbx using Guid(ad3119cbd6dce024e8460ef32dec49df) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '461d5b1d6555e3672eae2c9e20dca3c0') in 0.015507 seconds
+  Import took 0.017814 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.601218 seconds.
+  path: Assets/Battlecars/Art/Models/Vehicles/Vehicle_1.fbx
+  artifactKey: Guid(de8e2ff41a8ff424abff785f2342690a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Battlecars/Art/Models/Vehicles/Vehicle_1.fbx using Guid(de8e2ff41a8ff424abff785f2342690a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1b1beadc111edb34d619bb422f23ab34') in 0.294211 seconds
+  Import took 0.296740 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000171 seconds.
+  path: Assets/Battlecars/Art/Models/Vehicles/Vehicle_2.fbx
+  artifactKey: Guid(8c4a7415f616d574187b62ec4b308eae) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Battlecars/Art/Models/Vehicles/Vehicle_2.fbx using Guid(8c4a7415f616d574187b62ec4b308eae) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '38a1c7b6fb0d3a59bdb5baf8254ea325') in 0.133363 seconds
+  Import took 0.135675 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000165 seconds.
+  path: Assets/Battlecars/Art/Models/Vehicles/Vehicle_3.fbx
+  artifactKey: Guid(6cf43160d897deb4a946f0fe503eac40) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Battlecars/Art/Models/Vehicles/Vehicle_3.fbx using Guid(6cf43160d897deb4a946f0fe503eac40) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ec1103cdeb307683e600b218ec8393b2') in 0.082136 seconds
+  Import took 0.084698 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 1.841058 seconds.
+  path: Assets/Battlecars/Art/Models/Vehicles/Materials/Cannon_1_D.mat
+  artifactKey: Guid(6fdfe327039f1de49944c40bec83f2d0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Battlecars/Art/Models/Vehicles/Materials/Cannon_1_D.mat using Guid(6fdfe327039f1de49944c40bec83f2d0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '23948d05be31248525dab0e6a1a455e0') in 0.013307 seconds
+  Import took 0.015621 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000166 seconds.
+  path: Assets/Battlecars/Art/Models/Vehicles/Materials/Wheels_1_D.mat
+  artifactKey: Guid(273ba008175192e41b5e8f412f5be273) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Battlecars/Art/Models/Vehicles/Materials/Wheels_1_D.mat using Guid(273ba008175192e41b5e8f412f5be273) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b2e0892c9465b678b288b6f978b586ff') in 0.008176 seconds
+  Import took 0.010224 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000159 seconds.
+  path: Assets/Battlecars/Art/Models/Vehicles/Materials/Vehicle_2_D.mat
+  artifactKey: Guid(23e92a9fb279c1842b4ecf7938abb1c0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Battlecars/Art/Models/Vehicles/Materials/Vehicle_2_D.mat using Guid(23e92a9fb279c1842b4ecf7938abb1c0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1787b499e1a1570cbe73eb48dbcb9074') in 0.007950 seconds
+  Import took 0.010050 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000179 seconds.
+  path: Assets/Battlecars/Art/Models/Vehicles/Materials/Vehicle_3_D.mat
+  artifactKey: Guid(924ff58150c791f4cb86263a146564f9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Battlecars/Art/Models/Vehicles/Materials/Vehicle_3_D.mat using Guid(924ff58150c791f4cb86263a146564f9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '02c9b8d805b15e5222c5abc2057b415d') in 0.009845 seconds
+  Import took 0.011921 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000167 seconds.
+  path: Assets/Battlecars/Art/Models/Vehicles/Materials/Wheels_2_D.mat
+  artifactKey: Guid(38536b51ec22e214d977f984f4abe129) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Battlecars/Art/Models/Vehicles/Materials/Wheels_2_D.mat using Guid(38536b51ec22e214d977f984f4abe129) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '93a86ecb635cb6b03b188f192ba209cb') in 0.008568 seconds
+  Import took 0.010964 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000174 seconds.
+  path: Assets/Battlecars/Art/Models/Vehicles/Materials/Rockets_1_D.mat
+  artifactKey: Guid(8e14230ddb7556842b22d80dc1e5b738) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Battlecars/Art/Models/Vehicles/Materials/Rockets_1_D.mat using Guid(8e14230ddb7556842b22d80dc1e5b738) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '35491271ebcf2467bebb402d6fa11f3c') in 0.008306 seconds
+  Import took 0.010754 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000181 seconds.
+  path: Assets/Battlecars/Art/Models/Vehicles/Materials/Wheels_3_D.mat
+  artifactKey: Guid(69886c3e5829a8d4fbe930c102b106f3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Battlecars/Art/Models/Vehicles/Materials/Wheels_3_D.mat using Guid(69886c3e5829a8d4fbe930c102b106f3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '199a6adbe6a88f99b8ac55e420045d15') in 0.007528 seconds
+  Import took 0.009791 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000167 seconds.
+  path: Assets/Battlecars/Art/Models/Vehicles/Materials/Vehicle_1_D.mat
+  artifactKey: Guid(5ab2f52b45f41a141b98f4537502d177) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Battlecars/Art/Models/Vehicles/Materials/Vehicle_1_D.mat using Guid(5ab2f52b45f41a141b98f4537502d177) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2479d1294974e1eb1dab75447526ab15') in 0.008187 seconds
+  Import took 0.010574 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000171 seconds.
+  path: Assets/Battlecars/Art/Models/Vehicles/Materials/Radar_1_D.mat
+  artifactKey: Guid(78181919b0f5e72439d3d75d85bdab2e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Battlecars/Art/Models/Vehicles/Materials/Radar_1_D.mat using Guid(78181919b0f5e72439d3d75d85bdab2e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8f70f696f2d967d95dd1c1861971cba0') in 0.008209 seconds
+  Import took 0.010494 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 2.544777 seconds.
+  path: Assets/Battlecars/Art/Textures/Nature/NaturePackLite_Texture_01.png
+  artifactKey: Guid(28a51d508c86a8948b59df81d5188b17) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Battlecars/Art/Textures/Nature/NaturePackLite_Texture_01.png using Guid(28a51d508c86a8948b59df81d5188b17) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '927f29fa2f6bca6adb3f56956c3ae590') in 0.045879 seconds
+  Import took 0.048165 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 1.779553 seconds.
+  path: Assets/Battlecars/Art/Textures/Vehicles/Vehicle 1/Cannon_1_AO.png
+  artifactKey: Guid(8abcdbbf3f5612247895de11ffd7d1b7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Battlecars/Art/Textures/Vehicles/Vehicle 1/Cannon_1_AO.png using Guid(8abcdbbf3f5612247895de11ffd7d1b7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8aca584bd70e1e0f853cdba1f247b06d') in 0.020275 seconds
+  Import took 0.022489 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000163 seconds.
+  path: Assets/Battlecars/Art/Textures/Vehicles/Vehicle 1/Cannon_1_E.png
+  artifactKey: Guid(073cf93cea5a7cd498e200723566da3f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Battlecars/Art/Textures/Vehicles/Vehicle 1/Cannon_1_E.png using Guid(073cf93cea5a7cd498e200723566da3f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c5071fa245e73996a4a8ca7376ab45f5') in 0.014710 seconds
+  Import took 0.017108 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000167 seconds.
+  path: Assets/Battlecars/Art/Textures/Vehicles/Vehicle 1/Vehicle_1_D.png
+  artifactKey: Guid(33d3f10e6cbafba42885326538f71d5a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Battlecars/Art/Textures/Vehicles/Vehicle 1/Vehicle_1_D.png using Guid(33d3f10e6cbafba42885326538f71d5a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1a3bce89cbb48bf29e13e63064694ea7') in 0.018428 seconds
+  Import took 0.020489 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000149 seconds.
+  path: Assets/Battlecars/Art/Textures/Vehicles/Vehicle 1/Cannon_1_D.png
+  artifactKey: Guid(eef4a1a70a1d75248be14769a5e6b153) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Battlecars/Art/Textures/Vehicles/Vehicle 1/Cannon_1_D.png using Guid(eef4a1a70a1d75248be14769a5e6b153) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7846edf276941cfe66441bf2922cf600') in 0.016651 seconds
+  Import took 0.018890 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000166 seconds.
+  path: Assets/Battlecars/Art/Textures/Vehicles/Vehicle 1/Vehicle_1_AO.png
+  artifactKey: Guid(f5d7edfa4a295ac47ae36f444d5cc71b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Battlecars/Art/Textures/Vehicles/Vehicle 1/Vehicle_1_AO.png using Guid(f5d7edfa4a295ac47ae36f444d5cc71b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c64273999384f0e849910b02e1768be2') in 0.026888 seconds
+  Import took 0.029202 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000177 seconds.
+  path: Assets/Battlecars/Art/Textures/Vehicles/Vehicle 1/Cannon_1_S.png
+  artifactKey: Guid(f424356c28939754dba7251a2e17d68d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Battlecars/Art/Textures/Vehicles/Vehicle 1/Cannon_1_S.png using Guid(f424356c28939754dba7251a2e17d68d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4c3dcdf30b30e8d3453e72bdb288f037') in 0.018534 seconds
+  Import took 0.020901 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000166 seconds.
+  path: Assets/Battlecars/Art/Textures/Vehicles/Vehicle 1/Wheels_1_AO.png
+  artifactKey: Guid(af580faa8a4deeb43b69aea4f80e7a75) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Battlecars/Art/Textures/Vehicles/Vehicle 1/Wheels_1_AO.png using Guid(af580faa8a4deeb43b69aea4f80e7a75) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c58bc2fa05e9dace45d17cf4caa31cd2') in 0.019163 seconds
+  Import took 0.021285 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000187 seconds.
+  path: Assets/Battlecars/Art/Textures/Vehicles/Vehicle 1/Vehicle_1_S.png
+  artifactKey: Guid(9e27b1646506f5c43b3f8732386e5f22) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Battlecars/Art/Textures/Vehicles/Vehicle 1/Vehicle_1_S.png using Guid(9e27b1646506f5c43b3f8732386e5f22) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'be08b454370e6c1082d89848152e1cd8') in 0.018535 seconds
+  Import took 0.020838 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000170 seconds.
+  path: Assets/Battlecars/Art/Textures/Vehicles/Vehicle 1/Cannon_1_N.png
+  artifactKey: Guid(5b2d1f8b68d48bf46ac5af742d5727b1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Battlecars/Art/Textures/Vehicles/Vehicle 1/Cannon_1_N.png using Guid(5b2d1f8b68d48bf46ac5af742d5727b1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ec83479f9a6094528cd3f67616c9fdbb') in 0.020453 seconds
+  Import took 0.023011 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000219 seconds.
+  path: Assets/Battlecars/Art/Textures/Vehicles/Vehicle 1/Vehicle_1_H.png
+  artifactKey: Guid(1913e2f4a9f35654cb23a056e836aa8c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Battlecars/Art/Textures/Vehicles/Vehicle 1/Vehicle_1_H.png using Guid(1913e2f4a9f35654cb23a056e836aa8c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1ed059fd6938ea9240fd2bf5cb9f5aa5') in 0.021738 seconds
+  Import took 0.024389 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000149 seconds.
+  path: Assets/Battlecars/Art/Textures/Vehicles/Vehicle 1/Cannon_1_H.png
+  artifactKey: Guid(ccdce8b55a0b0c14fb537425a983a133) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Battlecars/Art/Textures/Vehicles/Vehicle 1/Cannon_1_H.png using Guid(ccdce8b55a0b0c14fb537425a983a133) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '23475e5776268d5b3a7e55592d3ca099') in 0.016405 seconds
+  Import took 0.018556 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000168 seconds.
+  path: Assets/Battlecars/Art/Textures/Vehicles/Vehicle 1/Vehicle_1_E.png
+  artifactKey: Guid(f5a7ce8050b21704aa8d0f89b8631186) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Battlecars/Art/Textures/Vehicles/Vehicle 1/Vehicle_1_E.png using Guid(f5a7ce8050b21704aa8d0f89b8631186) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a0756b9d6026f3a53e6800cc381e48ea') in 0.017458 seconds
+  Import took 0.019623 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000164 seconds.
+  path: Assets/Battlecars/Art/Textures/Vehicles/Vehicle 1/Vehicle_1_N.png
+  artifactKey: Guid(449108c165d52e844a4024aada57e9dc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Battlecars/Art/Textures/Vehicles/Vehicle 1/Vehicle_1_N.png using Guid(449108c165d52e844a4024aada57e9dc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '68e34396c6168716799afe1d01484a14') in 0.020307 seconds
+  Import took 0.022338 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.002722 seconds.
+  path: Assets/Battlecars/Art/Textures/Vehicles/Vehicle 1/Vehicle_1_N.png
+  artifactKey: Guid(449108c165d52e844a4024aada57e9dc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Battlecars/Art/Textures/Vehicles/Vehicle 1/Vehicle_1_N.png using Guid(449108c165d52e844a4024aada57e9dc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '68e34396c6168716799afe1d01484a14') in 0.013626 seconds
+  Import took 0.016664 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.228632 seconds.
+  path: Assets/Battlecars/Art/Textures/Vehicles/Vehicle 2/Rockets_1_AO.png
+  artifactKey: Guid(1396ee3d8993a3b46b9e54529ecb554d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Battlecars/Art/Textures/Vehicles/Vehicle 2/Rockets_1_AO.png using Guid(1396ee3d8993a3b46b9e54529ecb554d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4faa28cbf3fe15295a8a78bc06892306') in 0.019138 seconds
+  Import took 0.021654 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000176 seconds.
+  path: Assets/Battlecars/Art/Textures/Vehicles/Vehicle 2/Vehicle_2_S.png
+  artifactKey: Guid(0aee5e871418066488323a809c6d9c20) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Battlecars/Art/Textures/Vehicles/Vehicle 2/Vehicle_2_S.png using Guid(0aee5e871418066488323a809c6d9c20) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '62052590ec78043f11e5a4936ad11835') in 0.017316 seconds
+  Import took 0.019364 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000157 seconds.
+  path: Assets/Battlecars/Art/Textures/Vehicles/Vehicle 2/Vehicle_2_H.png
+  artifactKey: Guid(182500f4abd680447bacfba1c18900b3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Battlecars/Art/Textures/Vehicles/Vehicle 2/Vehicle_2_H.png using Guid(182500f4abd680447bacfba1c18900b3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ac88c579fbcd6a710a7cb0ab76327535') in 0.025293 seconds
+  Import took 0.027500 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000165 seconds.
+  path: Assets/Battlecars/Art/Textures/Vehicles/Vehicle 2/Rockets_1_S.png
+  artifactKey: Guid(da9bbde1a62932f468411b44d6ee429c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Battlecars/Art/Textures/Vehicles/Vehicle 2/Rockets_1_S.png using Guid(da9bbde1a62932f468411b44d6ee429c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '55d88214f5cf78e076b851188335eed9') in 0.016870 seconds
+  Import took 0.019233 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000215 seconds.
+  path: Assets/Battlecars/Art/Textures/Vehicles/Vehicle 2/Rockets_1_N.png
+  artifactKey: Guid(8dff993642699c341a1b87afff5d6978) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Battlecars/Art/Textures/Vehicles/Vehicle 2/Rockets_1_N.png using Guid(8dff993642699c341a1b87afff5d6978) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd3c05785ce868031f04ee0deaf8b6de4') in 0.018572 seconds
+  Import took 0.021217 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000187 seconds.
+  path: Assets/Battlecars/Art/Textures/Vehicles/Vehicle 2/Wheels_1_D.png
+  artifactKey: Guid(3ca80da20167db34781d2847a642a6ef) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Battlecars/Art/Textures/Vehicles/Vehicle 2/Wheels_1_D.png using Guid(3ca80da20167db34781d2847a642a6ef) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '78714971f7f03243f244dcf9fa28327d') in 0.015249 seconds
+  Import took 0.017440 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000478 seconds.
+  path: Assets/Battlecars/Art/Textures/Vehicles/Vehicle 2/Vehicle_2_N.png
+  artifactKey: Guid(ccdb1a59517d3804c8b4edf30d9c3459) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Battlecars/Art/Textures/Vehicles/Vehicle 2/Vehicle_2_N.png using Guid(ccdb1a59517d3804c8b4edf30d9c3459) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0d57788a7ebcabf85419f6d860bc2fb6') in 0.018937 seconds
+  Import took 0.021235 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000223 seconds.
+  path: Assets/Battlecars/Art/Textures/Vehicles/Vehicle 2/Vehicle_2_E.png
+  artifactKey: Guid(c2c4a5fec3e68e443a8cee5e9314af54) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Battlecars/Art/Textures/Vehicles/Vehicle 2/Vehicle_2_E.png using Guid(c2c4a5fec3e68e443a8cee5e9314af54) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '651e1cf6b6b5be513b6a8dbf1aa8c0dd') in 0.015167 seconds
+  Import took 0.017483 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000172 seconds.
+  path: Assets/Battlecars/Art/Textures/Vehicles/Vehicle 2/Vehicle_2_AO.png
+  artifactKey: Guid(998ac861da581ac43bd44db691fde820) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Battlecars/Art/Textures/Vehicles/Vehicle 2/Vehicle_2_AO.png using Guid(998ac861da581ac43bd44db691fde820) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '349c8a586a3090230e0bf6e637bf6d47') in 0.020141 seconds
+  Import took 0.022287 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000169 seconds.
+  path: Assets/Battlecars/Art/Textures/Vehicles/Vehicle 2/Wheels_1_AO.png
+  artifactKey: Guid(acbbdb43d6eaf6346aa159b12fcaed17) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Battlecars/Art/Textures/Vehicles/Vehicle 2/Wheels_1_AO.png using Guid(acbbdb43d6eaf6346aa159b12fcaed17) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '83af6b073b6ecf934258015f92687731') in 0.011824 seconds
+  Import took 0.014012 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000163 seconds.
+  path: Assets/Battlecars/Art/Textures/Vehicles/Vehicle 2/Rockets_1_H.png
+  artifactKey: Guid(b4f008491db92e14a9c1758fd482829e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Battlecars/Art/Textures/Vehicles/Vehicle 2/Rockets_1_H.png using Guid(b4f008491db92e14a9c1758fd482829e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a22be9b9b18558f20c62c9e46f3c0485') in 0.016468 seconds
+  Import took 0.018767 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000173 seconds.
+  path: Assets/Battlecars/Art/Textures/Vehicles/Vehicle 2/Vehicle_2_D.png
+  artifactKey: Guid(48a938db5b1b9eb499bf28ff5d2bff5e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Battlecars/Art/Textures/Vehicles/Vehicle 2/Vehicle_2_D.png using Guid(48a938db5b1b9eb499bf28ff5d2bff5e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '90150fa74e599be825cda09954b6ed5d') in 0.015005 seconds
+  Import took 0.017280 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000179 seconds.
+  path: Assets/Battlecars/Art/Textures/Vehicles/Vehicle 2/Rockets_1_D.png
+  artifactKey: Guid(0daa43271a5a8514e81a99f6d4fb1740) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Battlecars/Art/Textures/Vehicles/Vehicle 2/Rockets_1_D.png using Guid(0daa43271a5a8514e81a99f6d4fb1740) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e1018e8c519c7fd62d1d8ea51b3afbc9') in 0.014546 seconds
+  Import took 0.017035 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.138420 seconds.
+  path: Assets/Battlecars/Art/Textures/Vehicles/Vehicle 3/Radar_1_AO.png
+  artifactKey: Guid(e51a01683940c764e88c7d0106bd0330) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Battlecars/Art/Textures/Vehicles/Vehicle 3/Radar_1_AO.png using Guid(e51a01683940c764e88c7d0106bd0330) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5a77ea00429d97533e04ee924a8c31af') in 0.016924 seconds
+  Import took 0.019466 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000164 seconds.
+  path: Assets/Battlecars/Art/Textures/Vehicles/Vehicle 3/Wheels_1_AO.png
+  artifactKey: Guid(8c4bd359047b50a4895ac237f841f570) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Battlecars/Art/Textures/Vehicles/Vehicle 3/Wheels_1_AO.png using Guid(8c4bd359047b50a4895ac237f841f570) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fd7c49d3db21ef5c6e556a73e2100c94') in 0.011596 seconds
+  Import took 0.013554 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000172 seconds.
+  path: Assets/Battlecars/Art/Textures/Vehicles/Vehicle 3/Radar_1_N.png
+  artifactKey: Guid(2030b94ff35b5424ba6b02c81de490be) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Battlecars/Art/Textures/Vehicles/Vehicle 3/Radar_1_N.png using Guid(2030b94ff35b5424ba6b02c81de490be) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5019d76988791f074caafc0a8007aeff') in 0.017513 seconds
+  Import took 0.019637 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000164 seconds.
+  path: Assets/Battlecars/Art/Textures/Vehicles/Vehicle 3/Vehicle_3_N.png
+  artifactKey: Guid(6c2318fd8d9dd004c95f5d09ab6f331b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Battlecars/Art/Textures/Vehicles/Vehicle 3/Vehicle_3_N.png using Guid(6c2318fd8d9dd004c95f5d09ab6f331b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4f2a7786a2b51307ad6e8dbef49dde6f') in 0.018820 seconds
+  Import took 0.020992 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000181 seconds.
+  path: Assets/Battlecars/Art/Textures/Vehicles/Vehicle 3/Radar_1_H.png
+  artifactKey: Guid(1372ed1a21ef3af47908b558b00e5af4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Battlecars/Art/Textures/Vehicles/Vehicle 3/Radar_1_H.png using Guid(1372ed1a21ef3af47908b558b00e5af4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4e4f0ffe9b9475482e71f327dfda1e8e') in 0.016276 seconds
+  Import took 0.018470 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000181 seconds.
+  path: Assets/Battlecars/Art/Textures/Vehicles/Vehicle 3/Wheels_1_D.png
+  artifactKey: Guid(9ea5a5bf73a5a30428eed9558233bdfb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Battlecars/Art/Textures/Vehicles/Vehicle 3/Wheels_1_D.png using Guid(9ea5a5bf73a5a30428eed9558233bdfb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'aa505a982580edf2eb6436a5f6775fb1') in 0.011787 seconds
+  Import took 0.014360 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000169 seconds.
+  path: Assets/Battlecars/Art/Textures/Vehicles/Vehicle 3/Radar_1_D.png
+  artifactKey: Guid(8a1a63864fd35f644b5a79223d3f9827) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Battlecars/Art/Textures/Vehicles/Vehicle 3/Radar_1_D.png using Guid(8a1a63864fd35f644b5a79223d3f9827) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f56bb18f78ff7672a81a060fe05608fb') in 0.012617 seconds
+  Import took 0.015065 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000170 seconds.
+  path: Assets/Battlecars/Art/Textures/Vehicles/Vehicle 3/Vehicle_3_D.png
+  artifactKey: Guid(2427e372418b5eb46a3650407d549029) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Battlecars/Art/Textures/Vehicles/Vehicle 3/Vehicle_3_D.png using Guid(2427e372418b5eb46a3650407d549029) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ae3929eae6e9d1916d4b3e7b3655a0ae') in 0.013590 seconds
+  Import took 0.016311 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000192 seconds.
+  path: Assets/Battlecars/Art/Textures/Vehicles/Vehicle 3/Radar_1_S.png
+  artifactKey: Guid(3818c02b4b9c0d74f9e79fa962e23806) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Battlecars/Art/Textures/Vehicles/Vehicle 3/Radar_1_S.png using Guid(3818c02b4b9c0d74f9e79fa962e23806) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b26d883044916ea54905cf530fbc3a5f') in 0.018977 seconds
+  Import took 0.021519 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000199 seconds.
+  path: Assets/Battlecars/Art/Textures/Vehicles/Vehicle 3/Vehicle_3_H.png
+  artifactKey: Guid(8d2c4990229c84a49a00a60ea7f4eae3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Battlecars/Art/Textures/Vehicles/Vehicle 3/Vehicle_3_H.png using Guid(8d2c4990229c84a49a00a60ea7f4eae3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1f23755d6fde3e1d94561c260db29ef3') in 0.019759 seconds
+  Import took 0.021849 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000170 seconds.
+  path: Assets/Battlecars/Art/Textures/Vehicles/Vehicle 3/Vehicle_3_AO.png
+  artifactKey: Guid(11ccaab22043a3e4cb48ff5a7231d283) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Battlecars/Art/Textures/Vehicles/Vehicle 3/Vehicle_3_AO.png using Guid(11ccaab22043a3e4cb48ff5a7231d283) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '68eadbe2966debb29b25c77c5c4a1a6f') in 0.018422 seconds
+  Import took 0.020720 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000287 seconds.
+  path: Assets/Battlecars/Art/Textures/Vehicles/Vehicle 3/Vehicle_3_S.png
+  artifactKey: Guid(6e6b9fbb61f26ca4cac24e7077f4a95e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Battlecars/Art/Textures/Vehicles/Vehicle 3/Vehicle_3_S.png using Guid(6e6b9fbb61f26ca4cac24e7077f4a95e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'dff2f90026974cd3fb27f83d85fe6393') in 0.016286 seconds
+  Import took 0.018933 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000286 seconds.
+  path: Assets/Battlecars/Art/Textures/Vehicles/Vehicle 3/Vehicle_3_E.png
+  artifactKey: Guid(867453e3f0142884a887f1453c390b0e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Battlecars/Art/Textures/Vehicles/Vehicle 3/Vehicle_3_E.png using Guid(867453e3f0142884a887f1453c390b0e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '37ca1645b3638f2d86e626bdbb276699') in 0.016925 seconds
+  Import took 0.019773 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 52.775579 seconds.
+  path: Assets/Battlecars/Scripts/Networking
+  artifactKey: Guid(e905e05266c4b634d87dad8504d3dc34) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Battlecars/Scripts/Networking using Guid(e905e05266c4b634d87dad8504d3dc34) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '73199d1aa57f7b929918d0306f38c019') in 0.010459 seconds
+  Import took 0.013104 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.876418 seconds.
+  path: Assets/Battlecars/Scripts/Networking/BattlecarsPlayerNet.cs
+  artifactKey: Guid(5e668db9b44a80e4f91a0f3f188ef140) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Battlecars/Scripts/Networking/BattlecarsPlayerNet.cs using Guid(5e668db9b44a80e4f91a0f3f188ef140) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '729485374a980639a95b471adf3cd429') in 0.011426 seconds
+  Import took 0.013755 seconds .
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.003513 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.28 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.799 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.29 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1473 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 72.1 MB.
+System memory in use after: 72.2 MB.
+
+Unloading 14 unused Assets to reduce memory usage. Loaded Objects now: 1963.
+Total: 1.580500 ms (FindLiveObjects: 0.143900 ms CreateObjectMapping: 0.048800 ms MarkObjects: 1.341600 ms  DeleteObjects: 0.045200 ms)
+
+========================================================================
+Received Import Request.
+  Time since last request: 219.841567 seconds.
+  path: Assets/Battlecars/Scripts/Networking/BattlecarsPlayerNet.cs
+  artifactKey: Guid(5e668db9b44a80e4f91a0f3f188ef140) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Battlecars/Scripts/Networking/BattlecarsPlayerNet.cs using Guid(5e668db9b44a80e4f91a0f3f188ef140) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1ea63df2df2c51e0c8de91a6ad76146f') in 0.004849 seconds
+  Import took 0.007078 seconds .
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.003309 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.29 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.781 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.28 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1473 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 72.3 MB.
+System memory in use after: 72.4 MB.
+
+Unloading 13 unused Assets to reduce memory usage. Loaded Objects now: 1965.
+Total: 1.552700 ms (FindLiveObjects: 0.228500 ms CreateObjectMapping: 0.070200 ms MarkObjects: 1.207900 ms  DeleteObjects: 0.045300 ms)
+
+========================================================================
+Received Import Request.
+  Time since last request: 416.540834 seconds.
+  path: Assets/Battlecars/Scripts/Networking/BattlecarsNetworkManager.cs
+  artifactKey: Guid(8262fec70f462d94bbfe6f76d94d208e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Battlecars/Scripts/Networking/BattlecarsNetworkManager.cs using Guid(8262fec70f462d94bbfe6f76d94d208e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ec1e31d2298ec1bde645666e2a2da853') in 0.007845 seconds
+  Import took 0.009867 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000152 seconds.
+  path: Assets/Battlecars/Scripts/Networking/BattlecarsPlayerNet.cs
+  artifactKey: Guid(5e668db9b44a80e4f91a0f3f188ef140) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Battlecars/Scripts/Networking/BattlecarsPlayerNet.cs using Guid(5e668db9b44a80e4f91a0f3f188ef140) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1399acb9a7f2551761af5cd80dd60c29') in 0.002312 seconds
+  Import took 0.004101 seconds .
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.003422 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.29 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.787 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.28 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1473 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 72.5 MB.
+System memory in use after: 72.6 MB.
+
+Unloading 13 unused Assets to reduce memory usage. Loaded Objects now: 1967.
+Total: 1.567200 ms (FindLiveObjects: 0.149100 ms CreateObjectMapping: 0.054000 ms MarkObjects: 1.317700 ms  DeleteObjects: 0.045600 ms)
+
+========================================================================
+Received Import Request.
+  Time since last request: 28.079655 seconds.
+  path: Assets/Battlecars/Scripts/Networking/BattlecarsNetworkManager.cs
+  artifactKey: Guid(8262fec70f462d94bbfe6f76d94d208e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Battlecars/Scripts/Networking/BattlecarsNetworkManager.cs using Guid(8262fec70f462d94bbfe6f76d94d208e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'efac8e4647cfd619d5423c64665ce093') in 0.005387 seconds
+  Import took 0.007739 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.593645 seconds.
+  path: Assets/Battlecars/Scripts/UI/Lobby.cs
+  artifactKey: Guid(707f811a2a4871a4f82bbd56022ac306) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Battlecars/Scripts/UI/Lobby.cs using Guid(707f811a2a4871a4f82bbd56022ac306) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '52f4779f7b991fcf670b3f6c4776f84c') in 0.006289 seconds
+  Import took 0.008735 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 2.424602 seconds.
+  path: Assets/Battlecars/Scripts/UI/LobbyPlayerSlot.cs
+  artifactKey: Guid(bd133c667d5411949b09820780992508) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Battlecars/Scripts/UI/LobbyPlayerSlot.cs using Guid(bd133c667d5411949b09820780992508) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cbe6097c61c8eb7f5d103cadfad4553e') in 0.007078 seconds
+  Import took 0.009495 seconds .
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.003474 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.29 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.771 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.28 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1473 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 72.7 MB.
+System memory in use after: 72.7 MB.
+
+Unloading 13 unused Assets to reduce memory usage. Loaded Objects now: 1969.
+Total: 1.499700 ms (FindLiveObjects: 0.177500 ms CreateObjectMapping: 0.056900 ms MarkObjects: 1.216900 ms  DeleteObjects: 0.047300 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.003346 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.29 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.794 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.28 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1473 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 72.8 MB.
+System memory in use after: 72.8 MB.
+
+Unloading 13 unused Assets to reduce memory usage. Loaded Objects now: 1971.
+Total: 1.562300 ms (FindLiveObjects: 0.139400 ms CreateObjectMapping: 0.050600 ms MarkObjects: 1.327500 ms  DeleteObjects: 0.044100 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.005786 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.31 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.789 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.28 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1473 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 73.0 MB.
+System memory in use after: 73.1 MB.
+
+Unloading 13 unused Assets to reduce memory usage. Loaded Objects now: 1973.
+Total: 1.625600 ms (FindLiveObjects: 0.155700 ms CreateObjectMapping: 0.054900 ms MarkObjects: 1.371200 ms  DeleteObjects: 0.043000 ms)
+
+========================================================================
+Received Import Request.
+  Time since last request: 2614.144387 seconds.
+  path: Assets/Battlecars/Prefabs/Player.prefab
+  artifactKey: Guid(0c6976fb35bfb2544b3cf1e5ac50e30a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Battlecars/Prefabs/Player.prefab using Guid(0c6976fb35bfb2544b3cf1e5ac50e30a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '444bce8a52450cc9aca9f5fbcafcc068') in 0.026860 seconds
+  Import took 0.029175 seconds .
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.008990 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.30 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.815 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.29 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1473 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 73.2 MB.
+System memory in use after: 73.2 MB.
+
+Unloading 13 unused Assets to reduce memory usage. Loaded Objects now: 1975.
+Total: 1.645400 ms (FindLiveObjects: 0.160600 ms CreateObjectMapping: 0.051000 ms MarkObjects: 1.385700 ms  DeleteObjects: 0.047000 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.003449 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.29 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.789 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.28 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1473 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 73.3 MB.
+System memory in use after: 73.4 MB.
+
+Unloading 13 unused Assets to reduce memory usage. Loaded Objects now: 1977.
+Total: 1.484100 ms (FindLiveObjects: 0.172300 ms CreateObjectMapping: 0.057300 ms MarkObjects: 1.206500 ms  DeleteObjects: 0.047100 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.003501 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.28 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.780 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.28 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1473 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 73.5 MB.
+System memory in use after: 73.6 MB.
+
+Unloading 13 unused Assets to reduce memory usage. Loaded Objects now: 1979.
+Total: 1.456300 ms (FindLiveObjects: 0.150600 ms CreateObjectMapping: 0.047400 ms MarkObjects: 1.208700 ms  DeleteObjects: 0.048700 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.004778 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.28 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.766 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.28 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1473 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 73.6 MB.
+System memory in use after: 73.7 MB.
+
+Unloading 13 unused Assets to reduce memory usage. Loaded Objects now: 1981.
+Total: 1.684300 ms (FindLiveObjects: 0.193200 ms CreateObjectMapping: 0.067700 ms MarkObjects: 1.374000 ms  DeleteObjects: 0.048500 ms)
+
+========================================================================
+Received Prepare
+Refreshing native plugins compatible for Editor in 2.25 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 11 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 44.6 MB.
+System memory in use after: 44.6 MB.
+
+Unloading 11 unused Assets to reduce memory usage. Loaded Objects now: 1981.
+Total: 2.061800 ms (FindLiveObjects: 0.191300 ms CreateObjectMapping: 0.062700 ms MarkObjects: 1.757400 ms  DeleteObjects: 0.049200 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.003903 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.30 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.990 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.29 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1473 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 73.0 MB.
+System memory in use after: 73.1 MB.
+
+Unloading 13 unused Assets to reduce memory usage. Loaded Objects now: 1983.
+Total: 1.842100 ms (FindLiveObjects: 0.259900 ms CreateObjectMapping: 0.075700 ms MarkObjects: 1.453400 ms  DeleteObjects: 0.052000 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.003467 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.28 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.761 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.31 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1473 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 73.2 MB.
+System memory in use after: 73.3 MB.
+
+Unloading 13 unused Assets to reduce memory usage. Loaded Objects now: 1985.
+Total: 1.628000 ms (FindLiveObjects: 0.149700 ms CreateObjectMapping: 0.049800 ms MarkObjects: 1.384400 ms  DeleteObjects: 0.043300 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.003472 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.29 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.771 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.29 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1473 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 73.4 MB.
+System memory in use after: 73.5 MB.
+
+Unloading 13 unused Assets to reduce memory usage. Loaded Objects now: 1987.
+Total: 1.414000 ms (FindLiveObjects: 0.153600 ms CreateObjectMapping: 0.045200 ms MarkObjects: 1.167600 ms  DeleteObjects: 0.046800 ms)
+
+========================================================================
+Received Prepare
+Refreshing native plugins compatible for Editor in 2.17 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 11 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 44.3 MB.
+System memory in use after: 44.4 MB.
+
+Unloading 11 unused Assets to reduce memory usage. Loaded Objects now: 1987.
+Total: 1.832500 ms (FindLiveObjects: 0.227500 ms CreateObjectMapping: 0.067800 ms MarkObjects: 1.492000 ms  DeleteObjects: 0.044400 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.005067 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 1.03 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.081 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.34 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1473 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 73.8 MB.
+System memory in use after: 73.8 MB.
+
+Unloading 13 unused Assets to reduce memory usage. Loaded Objects now: 1989.
+Total: 1.953900 ms (FindLiveObjects: 0.369400 ms CreateObjectMapping: 0.082500 ms MarkObjects: 1.436500 ms  DeleteObjects: 0.064000 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.004070 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.37 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.060 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.60 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1473 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 73.9 MB.
+System memory in use after: 73.9 MB.
+
+Unloading 13 unused Assets to reduce memory usage. Loaded Objects now: 1991.
+Total: 2.716000 ms (FindLiveObjects: 0.226100 ms CreateObjectMapping: 0.129100 ms MarkObjects: 2.310700 ms  DeleteObjects: 0.048800 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.004102 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.41 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.043 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.89 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1473 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 73.1 MB.
+System memory in use after: 73.2 MB.
+
+Unloading 13 unused Assets to reduce memory usage. Loaded Objects now: 1993.
+Total: 1.876700 ms (FindLiveObjects: 0.308200 ms CreateObjectMapping: 0.102500 ms MarkObjects: 1.410400 ms  DeleteObjects: 0.052600 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.004298 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.52 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.007 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.33 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1473 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 73.3 MB.
+System memory in use after: 73.4 MB.
+
+Unloading 13 unused Assets to reduce memory usage. Loaded Objects now: 1995.
+Total: 2.786300 ms (FindLiveObjects: 0.200300 ms CreateObjectMapping: 0.068300 ms MarkObjects: 2.446500 ms  DeleteObjects: 0.069400 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.003471 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.29 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.773 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.29 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1473 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 73.5 MB.
+System memory in use after: 73.6 MB.
+
+Unloading 13 unused Assets to reduce memory usage. Loaded Objects now: 1997.
+Total: 1.487000 ms (FindLiveObjects: 0.164500 ms CreateObjectMapping: 0.058400 ms MarkObjects: 1.215800 ms  DeleteObjects: 0.047300 ms)
+
+========================================================================
+Received Prepare
+Refreshing native plugins compatible for Editor in 2.31 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 11 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 44.4 MB.
+System memory in use after: 44.5 MB.
+
+Unloading 11 unused Assets to reduce memory usage. Loaded Objects now: 1997.
+Total: 2.183300 ms (FindLiveObjects: 0.221700 ms CreateObjectMapping: 0.067600 ms MarkObjects: 1.833900 ms  DeleteObjects: 0.058300 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.004010 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.40 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.127 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.33 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1473 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 73.8 MB.
+System memory in use after: 73.9 MB.
+
+Unloading 13 unused Assets to reduce memory usage. Loaded Objects now: 1999.
+Total: 3.646800 ms (FindLiveObjects: 0.622000 ms CreateObjectMapping: 0.364100 ms MarkObjects: 2.583500 ms  DeleteObjects: 0.074700 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.003574 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.28 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.783 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.31 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1473 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 73.9 MB.
+System memory in use after: 74.0 MB.
+
+Unloading 13 unused Assets to reduce memory usage. Loaded Objects now: 2001.
+Total: 1.504700 ms (FindLiveObjects: 0.180200 ms CreateObjectMapping: 0.072100 ms MarkObjects: 1.207100 ms  DeleteObjects: 0.044400 ms)
+
+========================================================================
+Received Prepare
+Refreshing native plugins compatible for Editor in 2.34 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 11 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 44.0 MB.
+System memory in use after: 44.0 MB.
+
+Unloading 11 unused Assets to reduce memory usage. Loaded Objects now: 2001.
+Total: 1.632400 ms (FindLiveObjects: 0.186700 ms CreateObjectMapping: 0.053700 ms MarkObjects: 1.342300 ms  DeleteObjects: 0.048800 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.003749 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.36 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.117 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.31 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1473 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 73.4 MB.
+System memory in use after: 73.5 MB.
+
+Unloading 13 unused Assets to reduce memory usage. Loaded Objects now: 2003.
+Total: 1.958500 ms (FindLiveObjects: 0.202000 ms CreateObjectMapping: 0.103300 ms MarkObjects: 1.567700 ms  DeleteObjects: 0.083300 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.003833 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.29 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.754 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.29 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1473 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 73.6 MB.
+System memory in use after: 73.6 MB.
+
+Unloading 13 unused Assets to reduce memory usage. Loaded Objects now: 2005.
+Total: 1.622000 ms (FindLiveObjects: 0.156200 ms CreateObjectMapping: 0.054200 ms MarkObjects: 1.358100 ms  DeleteObjects: 0.052800 ms)
+
+========================================================================
+Received Prepare
+Refreshing native plugins compatible for Editor in 3.64 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 11 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 44.5 MB.
+System memory in use after: 44.6 MB.
+
+Unloading 11 unused Assets to reduce memory usage. Loaded Objects now: 2005.
+Total: 2.372900 ms (FindLiveObjects: 0.352600 ms CreateObjectMapping: 0.093700 ms MarkObjects: 1.860500 ms  DeleteObjects: 0.064600 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.005529 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.95 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.115 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 1.08 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1473 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 73.9 MB.
+System memory in use after: 74.0 MB.
+
+Unloading 13 unused Assets to reduce memory usage. Loaded Objects now: 2007.
+Total: 2.087100 ms (FindLiveObjects: 0.214700 ms CreateObjectMapping: 0.086700 ms MarkObjects: 1.719700 ms  DeleteObjects: 0.064700 ms)
 
 AssetImportWorkerClient::OnTransportError - code=2 error=End of file

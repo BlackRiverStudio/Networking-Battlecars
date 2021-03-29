@@ -5,14 +5,17 @@ namespace Battlecars.UI
 {
     public class LobbyPlayerSlot : MonoBehaviour
     {
-        public bool IsTaken => player != null;
+        public bool IsTaken => Player != null;
+        public BattlecarsPlayerNet Player { get; private set; } = null;
+        public bool IsLeft { get; private set; } = false;
 
         [SerializeField] private Text nameDisplay;
         [SerializeField] private Button playerButton;
 
-        private BattlecarsPlayerNet player = null;
+        // Set the player in this slot to the passed player.
+        public void AssignPlayer(BattlecarsPlayerNet _player) => Player = _player;
 
-        public void AssignPlayer(BattlecarsPlayerNet _player) => player = _player;
+        public void SetSide(bool _left) => IsLeft = _left;
 
         private void Update()
         {
@@ -20,7 +23,9 @@ namespace Battlecars.UI
             playerButton.interactable = IsTaken;
 
             // If the player is set, then display their name, otherwise display "Awaiting player..."
-            nameDisplay.text = IsTaken ? player.username : "Awaiting player...";
+            nameDisplay.text = IsTaken ? GetPlayerName() : "Awaiting player...";
         }
+
+        private string GetPlayerName() => string.IsNullOrEmpty(Player.username) ? $"Player {Player.playerId + 1}" : Player.username;
     }
 }
