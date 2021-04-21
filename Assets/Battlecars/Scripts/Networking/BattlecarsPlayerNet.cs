@@ -1,9 +1,12 @@
+using Battlecars.Player;
 using Battlecars.UI;
 using Mirror;
 using System.Collections;
+using UnityEngine;
 using UnityEngine.SceneManagement;
 namespace Battlecars.Networking
 {
+    [RequireComponent(typeof(PlayerMotor))]
     public class BattlecarsPlayerNet : NetworkBehaviour
     {
         [SyncVar] public byte playerId;
@@ -12,12 +15,24 @@ namespace Battlecars.Networking
         private Lobby lobby;
         private bool hasJoinedLobby = false;
 
-        #region Commands
+        #region Network'd
+
+        #region Set Username
+        public void SetUsername(string _name)
+        {
+            // Only localPlayers can call Commands as localPlayers are the only ones who have the authority to talk to the server.
+            if (isLocalPlayer) CmdSetUsername(_name);
+        }
         [Command] public void CmdSetUsername(string _name) => username = _name;
-        [Command] public void CmdAssignPlayerToLobbySlot(bool _left, int _slotId, byte _playerId) => RpcAssignPlayerToLobbySlot(_left, _slotId, _playerId);
         #endregion
 
-        #region RPCs
+        #region Assign Player To Lobby Slot
+        public void AssignPlayerToSlot(bool _left, int _slotId, byte _playerId)
+        {
+            // Only localPlayers can call Commands as localPlayers are the only ones who have the authority to talk to the server.
+            if (isLocalPlayer) CmdAssignPlayerToLobbySlot(_left, _slotId, _playerId);
+        }
+        [Command] public void CmdAssignPlayerToLobbySlot(bool _left, int _slotId, byte _playerId) => RpcAssignPlayerToLobbySlot(_left, _slotId, _playerId);
         [ClientRpc] public void RpcAssignPlayerToLobbySlot(bool _left, int _slotId, byte _playerId)
         {
             // If this is running on the host client, ignore this call.
@@ -26,9 +41,6 @@ namespace Battlecars.Networking
             // Find the lobby in the scene and set the player to the correct slot.
             StartCoroutine(AssignPlayerToLobbySlotDelayed(BattlecarsNetworkManager.Instance.GetPlayerForId(_playerId), _left, _slotId));
         }
-        #endregion
-
-        #region Coroutines
         private IEnumerator AssignPlayerToLobbySlotDelayed(BattlecarsPlayerNet _player, bool _left, int _slotId)
         {
             // Keep trying to get the lobby until it's not null.
@@ -44,15 +56,16 @@ namespace Battlecars.Networking
         }
         #endregion
 
-        public void SetUsername(string _name)
-        {
-            // Only localPlayers can call Commands as localPlayers are the only ones who have the authority to talk to the server.
-            if (isLocalPlayer) CmdSetUsername(_name);
-        }
+        #endregion
 
-        public void AssignPlayerToSlot(bool _left, int _slotId, byte _playerId)
+        private void Start()
         {
-            if (isLocalPlayer) CmdAssignPlayerToLobbySlot(_left, _slotId, _playerId);
+            // If we are the localPlayer, setup the movement script
+            if (isLocalPlayer)
+            {
+                PlayerMotor playerMotor = gameObject.GetComponent<PlayerMotor>();
+                playerMotor.Setup();
+            }
         }
 
         private void Update()
@@ -72,16 +85,10 @@ namespace Battlecars.Networking
             }
         }
 
-        public override void OnStartClient()
-        {
-            BattlecarsNetworkManager.Instance.AddPlayer(this);
-        }
+        public override void OnStartClient() => BattlecarsNetworkManager.Instance.AddPlayer(this);
 
         // Runs only if the object is connect to the localPlayer.
-        public override void OnStartLocalPlayer()
-        {
-            SceneManager.LoadSceneAsync("Lobby", LoadSceneMode.Additive);
-        }
+        public override void OnStartLocalPlayer() => SceneManager.LoadSceneAsync("Lobby", LoadSceneMode.Additive);
 
         // Runs when the client is disconnected from the server.
         public override void OnStopClient()
