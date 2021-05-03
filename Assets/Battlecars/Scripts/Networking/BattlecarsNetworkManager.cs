@@ -12,10 +12,16 @@ namespace Battlecars.Networking
         /// <summary>Whether or not this NetworkManager is the host.</summary>
         public bool IsHost { get; private set; } = false;
 
+        public BattlecarsNetworkDiscovery discovery;
+
         private Dictionary<byte, BattlecarsPlayerNet> players = new Dictionary<byte, BattlecarsPlayerNet>();
 
         /// <summary>Runs only when connecting to an online scene as a host.</summary>
-        public override void OnStartHost() => IsHost = true;
+        public override void OnStartHost()
+        {
+            IsHost = true;
+            discovery.AdvertiseServer();
+        }
 
         /// <summary>Attempts to return a player corresponding to the passed ID. If no player found, returns null.</summary>
         public BattlecarsPlayerNet GetPlayerForId(byte _playerId)
